@@ -1,0 +1,22 @@
+<label for="nota1">Nota1</label>
+<input type="number" name="nota1" placeholder="digita a 1º nota:" [(ngModel)]="nota1">
+<br>
+<br>
+<label for="nota2">Nota2</label>
+<input type="number" name="nota2" placeholder="digita a 2º nota:" [(ngModel)]="nota2">
+<br>
+<br>
+<label for="nota3">Nota3</label>
+<input type="number" name="nota3" placeholder="digita a 3º nota:" [(ngModel)]="nota3">
+<br>
+<br>
+<button (click)="calcularMedia()">Calcular</button>
+<br>
+<br>
+<label>Média: {{media}}</label>
+<br>
+<br>
+<label *ngIf="resultado == 'Aprovado'" class="{{resultado == 'Aprovado' ? 'blue-text' : 'red-text'}}" >{{resultado}}</label>
+
+
+
