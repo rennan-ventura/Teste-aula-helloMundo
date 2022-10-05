@@ -18,15 +18,18 @@ export class MediaEscolarComponent implements OnInit {
   nota3 : number = 0;
   media : number = 0;
   resultado : string = '';
+  aprovado : boolean = true;
 
   calcularMedia(){
    this.media = (this.nota1 + this.nota2 + this.nota3) / 3;
    if(this.media >= 7){
      this.resultado = 'Aprovado';
+     this.aprovado;
 
     }
   else{
     this.resultado = 'Reprovado';
+    this.aprovado = !this.aprovado;
   }
 
 }

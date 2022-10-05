@@ -1,9 +1,9 @@
-.blue-text{
+.div-Aprovado{
 color: blue
 };
 
-.red-text{
-color: red
+.div-Reprovado{
+color: rgb(255, 0, 0)
 };
 
 

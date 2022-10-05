@@ -10,6 +10,11 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { MediaEscolarComponent } from './media-escolar/media-escolar.component';
+import { CursoComponent } from './curso/curso.component';
+import { DisciplinaComponent } from './disciplina/disciplina.component';
+import { HomeComponent } from './home/home.component';
+import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { MediaEscolarComponent } from './media-escolar/media-escolar.component';
     ContentComponent,
     FooterComponent,
     LoginComponent,
-    MediaEscolarComponent
+    MediaEscolarComponent,
+    CursoComponent,
+    DisciplinaComponent,
+    HomeComponent,
+    PaginaNaoEncontradaComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

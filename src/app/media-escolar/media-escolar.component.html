@@ -16,7 +16,8 @@
 <label>Média: {{media}}</label>
 <br>
 <br>
-<label *ngIf="resultado == 'Aprovado'" class="{{resultado == 'Aprovado' ? 'blue-text' : 'red-text'}}" >{{resultado}}</label>
+<div class="div-Aprovado"  *ngIf="aprovado">{{resultado}}</div>
+<div class="div-Reprovado" *ngIf="!aprovado">{{resultado}}</div>
 
 
 
